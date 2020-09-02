@@ -1,4 +1,14 @@
-FROM land007/l4t-tensorflow:1.15.0
+#FROM land007/l4t-tensorflow:1.15.0
+FROM land007/l4t-tensorflow:1.15.0_18.04
+#docker build -t land007/l4t-tensorflow-test:18.04 .
+#docker run -it --rm --runtime nvidia land007/l4t-tensorflow-test:18.04 bash
+
+#docker build -t land007/l4t-golang-tensorflow-test:18.04 .
+#docker run -it --rm --runtime nvidia land007/l4t-golang-tensorflow-test:18.04 bash
+
+#FROM land007/l4t-golang-tensorflow:1.15.0
+#docker build -t land007/l4t-golang-tensorflow-test:latest .
+#docker run -it --rm --runtime nvidia land007/l4t-golang-tensorflow-test:latest bash
 
 MAINTAINER Jia Yiqiu <yiqiujia@hotmail.com>
 
